@@ -1,0 +1,1 @@
+# scouit-api-types
