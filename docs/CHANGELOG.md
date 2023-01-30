@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/scouit/api-types/compare/v1.0.4...v1.1.0) (2023-01-30)
+
+
+### Features
+
+* main 지정해서 엔트리 포인트 ([ccdf935](https://github.com/scouit/api-types/commit/ccdf935c85babc5efb7d21d889dba0280756dc5c))
+
 ## [1.0.4](https://github.com/scouit/api-types/compare/v1.0.3...v1.0.4) (2023-01-30)
 
 ## [1.0.3](https://github.com/scouit/api-types/compare/v1.0.2...v1.0.3) (2023-01-30)
