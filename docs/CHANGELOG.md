@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/scouit/api-types/compare/v1.1.1...v1.1.2) (2023-01-30)
+
+
+### Bug Fixes
+
+* PostSignInReqeustType 수정 ([b568cda](https://github.com/scouit/api-types/commit/b568cdae3ada8755df13fe721258ceef833390aa))
+
 ## [1.1.1](https://github.com/scouit/api-types/compare/v1.1.0...v1.1.1) (2023-01-30)
 
 
