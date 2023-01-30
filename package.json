@@ -22,6 +22,9 @@
   "lint-staged": {
     "*.{ts}": "prettier --write"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
