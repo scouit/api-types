@@ -1,7 +1,7 @@
 {
   "name": "@scouit/api-types",
   "version": "0.0.0-development",
-  "private":"true",
+  "private": false,
   "packageManager": "yarn@3.3.1",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
