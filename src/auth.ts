@@ -1,6 +1,6 @@
 export interface PostSignInReqeustType {
-  access_token: string;
-  refresh_token: string;
+  name: string;
+  email: string;
 }
 
 export interface PostSignInResponseType {
