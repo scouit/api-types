@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/scouit/api-types/compare/v1.1.2...v1.2.0) (2023-01-30)
+
+
+### Features
+
+* api 타입 추가 ([de80871](https://github.com/scouit/api-types/commit/de80871540405487a4917048f880c8103835d1eb))
+
 ## [1.1.2](https://github.com/scouit/api-types/compare/v1.1.1...v1.1.2) (2023-01-30)
 
 
