@@ -12,7 +12,7 @@ scouit 프로젝트 api type과 uri를 저장하는 패키지입니다.
   </a>
 
   <a href="https://bundlephobia.com/package/@scouit/api-types@latest" target="\_parent">
-    <img alt="qwdq" src="https://badgen.net/bundlephobia/minzip/@scouit/api-types" />
+    <img alt="bundle size" src="https://badgen.net/bundlephobia/minzip/@scouit/api-types" />
   </a>
 
   <a href="https://github.com/scouit/api-types/" target="\_parent">
