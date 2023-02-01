@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/scouit/api-types/compare/v1.2.0...v1.2.1) (2023-02-01)
+
+
+### Bug Fixes
+
+* uri INDEX 수정 ([e57469a](https://github.com/scouit/api-types/commit/e57469a86ffd06b8b88968ccacd85530b34e21dc))
+
 # [1.2.0](https://github.com/scouit/api-types/compare/v1.1.2...v1.2.0) (2023-01-30)
 
 
