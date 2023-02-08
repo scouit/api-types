@@ -1,6 +1,7 @@
 # @scouit/api-types
 
 scouit 프로젝트 api type과 uri를 저장하는 패키지입니다.
+내용은 타입으로만 작성될 것입니다.
 
 <div>
   <a href="https://www.npmjs.com/package/@scouit/api-types">
@@ -23,5 +24,5 @@ scouit 프로젝트 api type과 uri를 저장하는 패키지입니다.
 ## Installation
 
 ```shell
-yarn add @scouit/api-types
+yarn add @scouit/api-types -D
 ```
