@@ -1,26 +1,16 @@
-export const STATUS = '/status';
+type Status = '/status';
 
-export const AUTH = {
-  INDEX: '/auth',
-  SIGN_IN: '/sign-in',
-  SIGN_UP: '/sign-up',
-  LOGOUT: '/logout',
-  REISSUE: '/reissue',
-  RESET_PASSWORD: '/reset-password',
-};
+type BackEndAuth = '/auth' | '/sign-in' | '/sign-up';
+// type FrontEndAuth = '/auth/sign-in' | '/auth/sign-up';
+// type Auth = FrontEndAuth | BackEndAuth;
 
-export const USER = {
-  INDEX: '/user',
-  PROFILE: {
-    INDEX: '/profile',
-    LIST: '/profile/list',
-  },
-};
+type BackEndUser = '/user' | '/profile' | '/profile/list';
+// type FrontEndUser = '/user/profile' | '/user/profile/list';
+// type User = BackEndUser | FrontEndUser;
 
-export const COMPANY = {
-  INDEX: '/company',
-  PROFILE: {
-    INDEX: '/profile',
-    LIST: '/profile/list',
-  },
-};
+type BackEndCompany = '/company' | '/profile' | '/profile/list';
+// type FrontEndCompany = '/company/profile' | '/company/profile/list';
+// type Company = BackEndCompany | FrontEndCompany;
+
+type BackEndUri = BackEndAuth | BackEndUser | BackEndCompany | Status;
+// type FrontEndUri = FrontEndAuth | FrontEndUser | FrontEndCompany | Status;

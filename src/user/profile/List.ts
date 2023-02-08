@@ -2,6 +2,6 @@
 export interface GetUserProfileListResponseType {
   id: string;
   name: string;
-  tagList: string[];
+  tag: string[];
   profile: string;
 }
