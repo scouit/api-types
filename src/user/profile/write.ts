@@ -9,22 +9,38 @@ export type QueryProfileWriteType =
 
 export interface PatchProfileWriteRequestType {
   introduce?: {
-    oneLineIntroduction: string;
-    aboutMe: string;
+    simple?: string;
+    complex?: string;
+  };
+  basic: {
+    role?: string;
+  };
+  technology: {
+    main?: string[];
+    sub?: string[];
   };
   activity?: {
     name: string;
-    content: string;
-  };
+    content?: string;
+    period: string;
+  }[];
   education?: {
     name: string;
-    period: Date;
-  };
+    period: string;
+  }[];
   project?: {
     name: string;
-    introduce: string;
-    period: Date;
-    URL: string[];
-    detailedWork: string;
-  };
+    introduce?: string;
+    period: string;
+    url?: string[];
+    works?: string[];
+    skills: string[];
+    images?: string[];
+  }[];
+  workExperience: {
+    name: string;
+    period: string;
+    role?: string;
+    works?: string[];
+  }[];
 }
