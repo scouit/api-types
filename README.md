@@ -3,6 +3,8 @@
 scouit 프로젝트 api type과 uri를 저장하는 패키지입니다.
 내용은 타입으로만 작성될 것입니다.
 
+HTTPmethod + name + (Res / Req)Type
+
 <div>
   <a href="https://www.npmjs.com/package/@scouit/api-types">
     <img src="https://img.shields.io/npm/v/@scouit/api-types.svg" />
