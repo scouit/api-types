@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/scouit/api-types/compare/v1.3.0...v1.3.1) (2023-02-24)
+
+
+### Bug Fixes
+
+* api type 구분 ([b5ae831](https://github.com/scouit/api-types/commit/b5ae831db1abe159752a4b98d704b7e0abbddbc2))
+
 # [1.3.0](https://github.com/scouit/api-types/compare/v1.2.1...v1.3.0) (2023-02-24)
 
 
