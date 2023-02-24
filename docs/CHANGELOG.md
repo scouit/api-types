@@ -1,3 +1,19 @@
+# [1.3.0](https://github.com/scouit/api-types/compare/v1.2.1...v1.3.0) (2023-02-24)
+
+
+### Bug Fixes
+
+* company export 삭제 ([80443f7](https://github.com/scouit/api-types/commit/80443f7b8d6ad264e5ce22b202919fba6ca8eff0))
+* index에서 Export ([9de22d9](https://github.com/scouit/api-types/commit/9de22d95b1c3d8bd1cd7ed73b8573aa4e23f0603))
+* profile list type 수정 ([c2f87b3](https://github.com/scouit/api-types/commit/c2f87b314b4d0072ac256d242c6e3918613c04c2))
+* 대소문자 인식 해결 ([0aa42e2](https://github.com/scouit/api-types/commit/0aa42e2ae4e8e83e05ceb753d8afb867ae8264e2))
+* 타입 수정 ([88cf107](https://github.com/scouit/api-types/commit/88cf1077d30fc2487fa279c450c75242c6384103))
+
+
+### Features
+
+* 프로필 설정, 라운지 모집 타입 추가 ([21c04e6](https://github.com/scouit/api-types/commit/21c04e68f52fecdf2f1a4f61fa0723259cb831b2))
+
 ## [1.2.1](https://github.com/scouit/api-types/compare/v1.2.0...v1.2.1) (2023-02-01)
 
 
