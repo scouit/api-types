@@ -1,3 +1,9 @@
+interface DateType {
+  year: string;
+  month: string;
+  day: string;
+}
+
 export type QueryProfileWriteType =
   | 'basic'
   | 'introduce'
@@ -8,7 +14,6 @@ export type QueryProfileWriteType =
   | 'education';
 
 export interface PatchProfileWriteRequestType {
-  introduce?: IntroduceType;
   basic: BasicType;
   technology: TechnologyType;
   activity?: ActivityType[];
@@ -17,12 +22,11 @@ export interface PatchProfileWriteRequestType {
   workExperience: WorkExperienceType[];
 }
 
-export interface IntroduceType {
+export interface BasicType {
+  name: string;
+  image: string;
   simple?: string;
   complex?: string;
-}
-
-export interface BasicType {
   role?: string;
 }
 
@@ -34,18 +38,21 @@ export interface TechnologyType {
 export interface ActivityType {
   name: string;
   content?: string;
-  period: string;
+  startDate: DateType;
+  endDate: DateType;
 }
 
 export interface EducationType {
   name: string;
-  period: string;
+  startDate: DateType;
+  endDate: DateType;
 }
 
 export interface ProjectType {
   name: string;
   introduce?: string;
-  period: string;
+  startDate: DateType;
+  endDate: DateType;
   url?: string[];
   works?: string[];
   skills: string[];
@@ -54,7 +61,8 @@ export interface ProjectType {
 
 export interface WorkExperienceType {
   name: string;
-  period: string;
+  startDate: DateType;
+  endDate: DateType;
   role?: string;
   works?: string[];
 }
