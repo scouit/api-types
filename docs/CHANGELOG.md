@@ -1,3 +1,13 @@
+## [1.3.2](https://github.com/scouit/api-types/compare/v1.3.1...v1.3.2) (2023-04-06)
+
+
+### Bug Fixes
+
+* ci 오류 해결 ([0e94804](https://github.com/scouit/api-types/commit/0e948049cf41b67910cd86921c31a61d1d28294e))
+* NPM_TOKEN -> NODE_AUTH_TOKEN ([623aec2](https://github.com/scouit/api-types/commit/623aec2dfeeaba9455007d7d54c555bfedc4c3c2))
+* revoke NPM_TOKEN ([91514ba](https://github.com/scouit/api-types/commit/91514bafc9a0ceacc087d6997275841d871d0608))
+* 기본정보, 소개 통합, period를 시작,끝으로 분해 ([c6a2a20](https://github.com/scouit/api-types/commit/c6a2a201068323ba739f875b2311243af30aee86))
+
 ## [1.3.1](https://github.com/scouit/api-types/compare/v1.3.0...v1.3.1) (2023-02-24)
 
 
