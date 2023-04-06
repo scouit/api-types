@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/scouit/api-types/compare/v1.3.2...v1.4.0) (2023-04-06)
+
+
+### Bug Fixes
+
+* conflict resolve ([169b5f4](https://github.com/scouit/api-types/commit/169b5f48416407f9ad9688d0db42203c031773de))
+
+
+### Features
+
+* 프로필 작성 타입 수정 ([07584da](https://github.com/scouit/api-types/commit/07584da64b5029bcefa111fc65d2d3b4f68bd55d))
+
 ## [1.3.2](https://github.com/scouit/api-types/compare/v1.3.1...v1.3.2) (2023-04-06)
 
 
