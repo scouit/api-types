@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/scouit/api-types/compare/v1.4.0...v1.4.1) (2023-04-12)
+
+
+### Bug Fixes
+
+* 프로필 작성 캘린더 value 타입 수정 ([0e55cb5](https://github.com/scouit/api-types/commit/0e55cb5d81ad3b3d9b5b2320971967289dc58461))
+
 # [1.4.0](https://github.com/scouit/api-types/compare/v1.3.2...v1.4.0) (2023-04-06)
 
 
