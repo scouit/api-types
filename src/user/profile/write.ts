@@ -1,8 +1,10 @@
-export interface DateType {
-  year: string;
-  month: string;
-  day: string;
-}
+export type DateType =
+  | {
+      year: number;
+      month: number;
+      day: number;
+    }
+  | undefined;
 
 export type QueryProfileWriteType =
   | 'basic'
@@ -14,17 +16,17 @@ export type QueryProfileWriteType =
   | 'education';
 
 export interface PatchProfileWriteRequestType {
-  basic: BasicType;
-  technology: TechnologyType;
+  basic?: BasicType;
+  technology?: TechnologyType;
   activity?: ActivityType[];
   education?: EducationType[];
   project?: ProjectType[];
-  workExperience: WorkExperienceType[];
+  workExperience?: WorkExperienceType[];
 }
 
 export interface BasicType {
   name: string;
-  image: string;
+  image?: string;
   simple?: string;
   complex?: string;
   role?: string;
