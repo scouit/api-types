@@ -1,3 +1,5 @@
+## [1.4.2](https://github.com/scouit/api-types/compare/v1.4.1...v1.4.2) (2023-05-10)
+
 ## [1.4.1](https://github.com/scouit/api-types/compare/v1.4.0...v1.4.1) (2023-04-12)
 
 
