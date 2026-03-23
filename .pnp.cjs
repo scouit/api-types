@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@semantic-release/changelog", "virtual:e64189b89b56a95edca18e1314a87c3eecaab4830eff52c2311042f99f0dfb4fedde46eb772c74cd0d9f6a880d7ac5f816bf3d0e19a50141de8c2e057744dea7#npm:6.0.2"],\
             ["@semantic-release/git", "virtual:e64189b89b56a95edca18e1314a87c3eecaab4830eff52c2311042f99f0dfb4fedde46eb772c74cd0d9f6a880d7ac5f816bf3d0e19a50141de8c2e057744dea7#npm:10.0.1"],\
-            ["husky", "npm:8.0.3"],\
+            ["husky", "npm:9.1.7"],\
             ["lint-staged", "npm:13.1.0"],\
             ["pinst", "npm:3.0.0"],\
             ["prettier", "npm:2.8.8"],\
@@ -558,7 +558,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@scouit/api-types", "workspace:."],\
             ["@semantic-release/changelog", "virtual:e64189b89b56a95edca18e1314a87c3eecaab4830eff52c2311042f99f0dfb4fedde46eb772c74cd0d9f6a880d7ac5f816bf3d0e19a50141de8c2e057744dea7#npm:6.0.2"],\
             ["@semantic-release/git", "virtual:e64189b89b56a95edca18e1314a87c3eecaab4830eff52c2311042f99f0dfb4fedde46eb772c74cd0d9f6a880d7ac5f816bf3d0e19a50141de8c2e057744dea7#npm:10.0.1"],\
-            ["husky", "npm:8.0.3"],\
+            ["husky", "npm:9.1.7"],\
             ["lint-staged", "npm:13.1.0"],\
             ["pinst", "npm:3.0.0"],\
             ["prettier", "npm:2.8.8"],\
@@ -2295,10 +2295,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["husky", [\
-        ["npm:8.0.3", {\
-          "packageLocation": "./.yarn/cache/husky-npm-8.0.3-b0b59c5127-837bc7e441.zip/node_modules/husky/",\
+        ["npm:9.1.7", {\
+          "packageLocation": "./.yarn/cache/husky-npm-9.1.7-5b02eaabc4-c2412753f1.zip/node_modules/husky/",\
           "packageDependencies": [\
-            ["husky", "npm:8.0.3"]\
+            ["husky", "npm:9.1.7"]\
           ],\
           "linkType": "HARD"\
         }]\
